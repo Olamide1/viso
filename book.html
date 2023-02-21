@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <section class="py-5">
+        <a href="index.html" class="btn btn-secondary">Go Back to Home Page</a>
+
+        <div class="container">
+          <h2 class="text-center mb-4">Book Dale's Services</h2>
+          <form action="#" method="post">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone</label>
+              <input type="tel" class="form-control" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+              <label for="service">Service</label>
+              <select class="form-control" id="service" name="service" required>
+                <option value="">Select a service</option>
+                <option value="Personal Assistant">Personal Assistant</option>
+                <option value="Administrative Support">Administrative Support</option>
+                <option value="Travel Planning">Travel Planning</option>
+                <option value="Event Planning">Event Planning</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="date">Date</label>
+              <input type="date" class="form-control" id="date" name="date" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control" id="message" name="message" rows="5"></textarea>
+            </div>
+            <div class="text-center">
+              <button type="submit" class="btn btn-success btn-lg">Book Now</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      
+</body>
+</html>
